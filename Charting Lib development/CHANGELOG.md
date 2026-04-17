@@ -1,0 +1,41 @@
+# Changelog
+
+All notable updates to this workspace should be recorded here.
+
+## 2026-04-16
+
+### Final package promotion and cleanup
+
+- Removed the `Test1` and `Test2` wrapper folders
+- Promoted the active chart package to the repo root
+- Renamed the final chart implementation so it is now the default surface instead of a `V3`-named layer
+- Cleaned Storybook story names and helper references to match the final chart surface
+- Updated the repo documentation to describe the single-package structure
+
+## 2026-04-14
+
+### Test2 cleanup: remove old V1 chart layer
+
+- Removed the legacy `V1` chart source files from `Test2`
+- Removed the old `V1` chart stories from `Test2`
+- Kept `Test1` as the place to reference preserved `V1` chart behavior
+- Simplified `Test2` so it stays focused on the active `V3` implementation
+
+### Test2 V3: Hover interactions and Storybook control cleanup
+
+- Added shared hover-card support for `V3` charts in `Test2`
+- Expanded hover interaction coverage across line, bar, combo, donut, histogram, gauge, pointer scale, map bubble, and sparkline charts
+- Improved hover-card placement so cards are less likely to cover the active mark
+- Updated `showHoverCard` handling in Storybook controls and restored it as a visible prop with a default value of `false`
+- Refreshed sample chart data to better reflect practical product-style scenarios
+- Rebuilt `Test2/storybook-static` so local static previews reflect current source changes
+
+## 2026-04-13
+
+### Initial workspace repo setup
+
+- Added the top-level git repo for the full workspace
+- Tracked both `Test1` and `Test2`
+- Preserved the split workflow:
+  - `Test1` for reference work
+  - `Test2` for active iteration

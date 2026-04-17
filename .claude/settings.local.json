@@ -9,7 +9,15 @@
       "Bash(git remote:*)",
       "Bash(git config:*)",
       "Bash(rm -rf \"/Users/i_atulya.v/Desktop/Master_Charting/Charting - CardsHoverUpateClaude/.git\")",
-      "Bash(rm -rf \"/Users/i_atulya.v/Desktop/Master_Charting/Charting - DoneByCodex/.git\")"
+      "Bash(rm -rf \"/Users/i_atulya.v/Desktop/Master_Charting/Charting - DoneByCodex/.git\")",
+      "Bash(git rm:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)",
+      "Bash(ls \"/Users/i_atulya.v/Desktop/Innovaccer Works/\"*.html)",
+      "Bash(lsof -ti:6006)",
+      "Bash(xargs kill:*)",
+      "Bash(npm run:*)",
+      "Bash(echo \"Started with PID $!\")"
     ]
   }
 }
